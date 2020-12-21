@@ -8,7 +8,7 @@ node_js:
 #    - node_modules
 #env: -CI=true
 install:
-  - npm install --force
+  - npm install
 script:
   - npm run build
 
