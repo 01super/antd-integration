@@ -10,12 +10,12 @@ node_js:
 install:
   - npm install
 script:
-  - npm run build
+  - npm run build-storybook
 
 deploy:
   provider: pages
   skip_cleanup: true
   github_token: $github_token
-  local_dir: build # 需要将将哪个文件夹的文件上传
+  local_dir: storybook-static # 需要将将哪个文件夹的文件上传
   on:
     branch: main # 哪个branch有push时触发deploy
