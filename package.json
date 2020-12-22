@@ -2,6 +2,7 @@
   "name": "antd-integration",
   "version": "0.1.0",
   "private": false,
+  "homepage": ".",
   "dependencies": {
     "antd": "^4.9.4",
     "react": "^17.0.1",
