@@ -8,7 +8,7 @@ cache:
     - node_modules
 #env: -CI=true
 install:
-  - npm install
+  - npm install --legacy-peer-deps
 script:
   - npm run build-storybook
 
