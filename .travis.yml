@@ -3,9 +3,9 @@ language: node_js
 node_js:
   - "stable"
 # 缓存
-#cache:
-#  directories:
-#    - node_modules
+cache:
+  directories:
+    - node_modules
 #env: -CI=true
 install:
   - npm install
